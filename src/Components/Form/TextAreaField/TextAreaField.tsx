@@ -1,6 +1,6 @@
 import React from "react";
 
-interface TextAreaFieldProps extends React.TextareaHTMLAttributes<HTMLTextareaElement> {
+interface TextAreaFieldProps extends React.TextareaHTMLAttributes<HTMLTextAreaElement> {
   className?: string;
 }
 

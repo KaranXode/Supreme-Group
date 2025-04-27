@@ -1,9 +1,15 @@
-
 import logo from "../../assets/icons/supremeLogo.svg";
 import { Link } from "react-router-dom";
 
+type LinkItem =
+  | { name: string; to: string }
+  | { name: string; to: string; external: boolean };
+type FooterData = {
+  [section: string]: LinkItem[];
+};
+
 export default function Footer() {
-  const footerData = {
+  const footerData: FooterData = {
     Applications: [
       { name: "Apparel", to: "/apparel" },
       { name: "Automotive", to: "/automotive" },

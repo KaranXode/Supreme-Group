@@ -1,5 +1,4 @@
-import React from "react";
-import HeroVideo from "../../assets/videos/automotiveVideo.mp4"; 
+import HeroVideo from "../../assets/videos/automotiveVideo.mp4";
 
 export default function HeroSection() {
   return (
@@ -27,7 +26,8 @@ export default function HeroSection() {
           </span>
           <h2 className=" text-white font-light leading-tight pb-2 text-[1.75rem] md:text-[2.25rem] 2xl:text-[3rem]">
             <span className="font-semibold">
-              Soft trims and <span className="text-primary-700">NVH solutions</span>
+              Soft trims and{" "}
+              <span className="text-primary-700">NVH solutions</span>
             </span>
             <br className="hidden md:block" /> for seamless rides
           </h2>
