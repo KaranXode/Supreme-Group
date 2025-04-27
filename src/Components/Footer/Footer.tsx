@@ -1,9 +1,11 @@
 import logo from "../../assets/icons/supremeLogo.svg";
 import { Link } from "react-router-dom";
 
-type LinkItem =
-  | { name: string; to: string }
-  | { name: string; to: string; external: boolean };
+type LinkItem = {
+  name: string;
+  to: string;
+  external?: boolean; 
+};
 type FooterData = {
   [section: string]: LinkItem[];
 };
