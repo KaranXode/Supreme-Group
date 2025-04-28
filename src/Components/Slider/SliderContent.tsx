@@ -27,7 +27,11 @@ function SlideContent({
         <div className="relative w-3/5 xl:w-auto">
           <div>
             <video
-              ref={(el) => (videoRefs.current[idx] = el)}
+              ref={(el) => {
+                if (el) {
+                  videoRefs.current[idx] = el;
+                }
+              }}
               muted
               loop
               playsInline

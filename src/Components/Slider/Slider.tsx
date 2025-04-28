@@ -4,8 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Mousewheel, Pagination } from "swiper/modules";
 import { gsap } from "gsap";
-import "swiper/css";
-import "swiper/css/pagination";
+import "swiper/swiper-bundle.css"
 import "./slider.css";
 
 import CompleteBody from "../../assets/videos/Complete-body.mp4";
