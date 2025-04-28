@@ -1,0 +1,21 @@
+@media (max-width: 767px) {
+  .swiper-wrapper {
+    height: 35vh;
+  }
+  .swiper-pagination {
+    height: auto !important;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: center !important;
+  }
+  .swiper-pagination .swiper-pagination-bullet {
+    background: rgba(0, 174, 239, 0.35) !important;
+    opacity: 1;
+  }
+  .swiper-pagination .swiper-pagination-bullet-active {
+    background: #00bfff !important;
+    border-radius: 8px;
+    height: 7px;
+    width: 30px;
+  }
+}

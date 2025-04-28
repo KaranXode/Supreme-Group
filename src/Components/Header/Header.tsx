@@ -6,7 +6,7 @@ import engIcon from "../../assets/icons/engIcon.svg";
 export default function Header() {
   return (
     <header className="shadow-lg">
-      <div className="bg-white  max-w-[1380px]  mx-auto ">
+      <div className="bg-white  container  mx-auto ">
         <div className="py-2 md:py-3 px-3 flex items-center justify-between ">
           <div className=" h-full xlg:py-3 py-1 mt-[2px]  gap-4">
             <a className="" href="/">

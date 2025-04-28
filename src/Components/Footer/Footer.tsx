@@ -55,7 +55,7 @@ export default function Footer() {
 
   return (
     <footer className="text-black footer-bg bg-no-repeat bg-cover bg-right-bottom border-t border-opacity-10 border-gray">
-      <div className="max-w-screen-lg mx-auto py-10 px-3">
+      <div className="max-w-screen-lg mx-auto py-10 xl:py-20 px-3">
         <div>
           <Link to="/">
             <img

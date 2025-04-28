@@ -3,7 +3,7 @@ import HeroVideo from "../../assets/videos/automotiveVideo.mp4";
 export default function HeroSection() {
   return (
     <div>
-      <section className="relative lg:h-screen min-h-[450px] overflow-hidden bg-blueDark">
+      <section className="relative lg:h-screen min-h-[450px] overflow-hidden ">
         <div className="absolute inset-0">
           <video
             autoPlay
@@ -20,7 +20,7 @@ export default function HeroSection() {
 
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
 
-        <div className="absolute inset-0 grid place-content-center place-items-center pt-10 md:pt-5 lg:pt-10 gap-2 text-center w-11/12 mx-auto">
+        <div className="absolute inset-0 grid place-content-center place-items-center gap-2 text-center w-11/12 mx-auto">
           <span className=" font-light pt-2 pb-3 text-lg xl:text-xl 2xl:text-[1.375rem] text-white block leading-snug">
             Driven by performance
           </span>
